@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css/main.css" />
+    <title>Task-2</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- navBar -->
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary d-flex align-items-center"
+      >
+        <a class="navbar-brand fw-bold snapText" href="#">snap</a>
+        <div class="container d-flex justify-content-end">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-secondary"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Features
+                </a>
+                <ul class="dropdown-menu p-3 border-0 shadow featureDrop">
+                  <li class="d-flex h-50">
+                    <img
+                      class="icons w-25"
+                      src="images/icon-todo.svg"
+                      alt="snap"
+                    />
+                    <a class="dropdown-item" href="#">Todo List</a>
+                  </li>
+                  <li class="d-flex mt-2">
+                    <img
+                      class="icons w-25"
+                      src="images/icon-calendar.svg"
+                      alt="snap"
+                    />
+                    <a class="dropdown-item" href="#">Calender</a>
+                  </li>
+                  <li class="d-flex mt-2">
+                    <img
+                      class="icons w-25"
+                      src="images/icon-reminders.svg"
+                      alt="snap"
+                    />
+                    <a class="dropdown-item" href="#">Reminders</a>
+                  </li>
+                  <li class="d-flex mt-2">
+                    <img
+                      class="icons w-25"
+                      src="images/icon-planning.svg"
+                      alt="snap"
+                    />
+                    <a class="dropdown-item" href="#">Planning</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-secondary"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Company
+                </a>
+                <ul class="dropdown-menu shadow border-0">
+                  <li><a class="dropdown-item" href="#">History</a></li>
+                  <li><a class="dropdown-item" href="#">Our Team</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Blog</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-secondary"
+                  aria-current="page"
+                  href="#"
+                  >Careers</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-secondary"
+                  aria-current="page"
+                  href="#"
+                  >About</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex formStyle" role="search">
+              <button class="btn mx-3 text-secondary" type="submit">
+                Login
+              </button>
+              <button
+                class="btn btn-outline-dark rounded-4 px-4 fw-semibold"
+                type="submit"
+              >
+                Register
+              </button>
+            </form>
+            </div>
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          </div> -->
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <!-- Main Section -->
+      <div class="row mt-5 mainSection">
+        <div
+          class="col-lg-6 d-flex flex-column justify-content-evenly mt-5 pt-5 mainInfo"
+        >
+          <h1 class="fw-bold mainText">
+            Make<br />
+            remote work
+          </h1>
+          <p class="w-75 text-secondary fw-semibold subText">
+            Get your team in sync , no matter our location<br />
+            streamline processes create team rituals and<br />
+            watch productivity soar
+          </p>
+          <button
+            class="btn btn-outline-dark w-25 rounded-3 px-4 fw-bold fs-5 mainButton"
+          >
+            Learn more
+          </button>
+          <div class="d-flex justify-content-between w-75 mainCust">
+            <img src="images/client-databiz.svg" alt="snap" />
+            <img src="images/client-audiophile.svg" alt="snap" />
+            <img src="images/client-meet.svg" alt="snap" />
+            <img src="images/client-maker.svg" alt="snap" />
+          </div>
+        </div>
+        <div class="col-lg-6 ps-5 d-flex justify-content-center">
+          <img
+            class="w-75 snapImg"
+            src="images/image-hero-desktop.png"
+            alt="snap"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/main.js"></script>
+  </body>
+</html>

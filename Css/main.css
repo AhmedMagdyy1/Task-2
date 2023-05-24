@@ -1,0 +1,65 @@
+h1 {
+    font-size: 72px;
+}
+
+.snapText {
+    font-size: 35px;
+    margin-bottom: 1px;
+}
+
+
+@media screen and (max-width:480px) {
+    .mainSection {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .snapImg {
+        width: 100% !important;
+    }
+    .mainInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .mainText {
+        font-size: 50px;
+        text-align: center;
+    }
+    .subText {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .mainButton {
+        width: 50% !important;
+        margin-bottom: 30px;
+        background-color: black;
+        color: white;
+    }
+    .mainCust {
+        width: 100% !important;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .mainCust img {
+        width: 20%;
+    }
+    .featureDrop {
+        padding: 10px !important;
+    }
+    .featureDrop img {
+        width: 10% !important;
+    }
+    .snapText {
+        position: relative;
+        top: 35px !important;
+    }
+    .formStyle {
+        display: flex;
+        flex-direction: column;
+    }
+    .offcanvas {
+        width: 150px;
+    }
+}
+
+
